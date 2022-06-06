@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.14.42"
+  },
+  "name": "eruda-ume",
+  "description": "ume 插件",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild-darwin-arm64": "^0.14.42"
+  },
+  "scripts": {
+    "start": "esbuild src/index.js --servedir=www --outdir=www/js --bundle --loader:.css=text --loader:.html=text",
+    "build": "esbuild src/index.js --outdir=www/js --bundle  --loader:.css=text"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/eruda-ume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/eruda-ume/issues"
+  },
+  "homepage": "https://github.com/liurongqing/eruda-ume#readme"
+}
