@@ -6,12 +6,10 @@
   "description": "ume 插件",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "esbuild-darwin-arm64": "^0.14.42"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "esbuild src/index.js --servedir=www --outdir=www/js --bundle --loader:.css=text --loader:.html=text",
-    "build": "esbuild src/index.js --outdir=www/js --bundle  --loader:.css=text"
+    "build": "esbuild src/index.js --outdir=www/js --bundle  --loader:.css=text --loader:.html=text"
   },
   "repository": {
     "type": "git",
