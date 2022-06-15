@@ -1,5 +1,4 @@
 export * from './eruda-ume/eruda-ume'
-// import { ErudaUme } from './eruda-ume';
 
 // if (window.eruda) {
 //   window.eruda.init({
