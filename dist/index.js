@@ -125,13 +125,20 @@ var i=o=>{if(navigator.clipboard)return navigator.clipboard.writeText(o),!0;if(d
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+.eruda-ume table td.value {
+  max-height: 100px;
+  overflow: auto;
+  display: block;
+}
 .eruda-ume table td.control {
   padding: 0;
   font-size: 0;
-  width: 40px;
+  width: 60px;
 }
 .eruda-ume table td.control-text {
   font-size: inherit;
+  text-align: center;
+  vertical-align: middle;
 }
 .eruda-ume table td.control .eruda-icon-delete {
   cursor: pointer;
